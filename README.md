@@ -15,6 +15,10 @@ provide a luxury feature in a lower segment motor vehicle, which usually used to
 premium automobile. The endeavor focused on offering cost effective solution and at the same
 time providing complete driving experience to the user. The application allows the user to
 completely dependent on the self-regulating system installed in the car.
+
+
+![capture](https://user-images.githubusercontent.com/30786817/31310271-081e114e-ab63-11e7-9ee7-284b3534a57f.PNG)
+
 ## Accident Prevention
 As nowadays the motor vehicles are more prone to the accidents because of the following
 reasons:-
