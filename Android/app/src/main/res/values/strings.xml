@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tech-m-Car</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_google_maps">Google Maps</string>
+    <string name="title_activity_ultrasonic">Ultrasonic</string>
+    <string name="title_activity_parking">Parking</string>
+    <string name="title_activity_temperature">Temperature</string>
+    <string name="title_activity_side_mirror">SideMirror</string>
+    <string name="title_activity_android_foursquare">AndroidFoursquare</string>
+    <string name="title_activity_power_window">PowerWindow</string>
+    <string name="title_activity_mute">Mute</string>
+    <string name="title_activity_water">Water</string>
+    <string name="title_activity_fuel">Fuel</string>
+</resources>

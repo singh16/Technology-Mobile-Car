@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    tools:context="developer.tech_m_car.Mute">
+
+    <!--<ToggleButton
+        android:gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#B07FF2"
+        android:textSize="30sp"
+        android:id="@+id/sidemirror"
+        />-->
+    <Button
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:padding="4dp"
+        android:text="Mute"
+        android:background="@drawable/background7"
+        android:onClick="mute"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:padding="4dp"
+        android:text="De-mute"
+        android:background="@drawable/background7"
+        android:onClick="de_mute"/>
+
+</LinearLayout>

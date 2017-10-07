@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="developer.tech_m_car" >
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Feedback"
+            android:label="@string/title_activity_feedback"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" >
+        </activity>
+        <activity
+            android:name=".GoogleMaps"
+            android:label="@string/title_activity_google_maps"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" >
+        </activity>
+        <activity
+            android:name=".Parking"
+            android:label="@string/title_activity_parking"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" >
+        </activity>
+        <activity
+            android:name=".Temperature"
+            android:label="@string/title_activity_temperature"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" >
+        </activity>
+        <activity
+            android:name=".SideMirror"
+            android:label="@string/title_activity_side_mirror"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" >
+        </activity>
+        <activity
+            android:name=".AndroidFoursquare"
+            android:label="@string/title_activity_android_foursquare" >
+        </activity>
+        <activity
+            android:name=".PowerWindow"
+            android:label="@string/title_activity_power_window"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" >
+        </activity>
+
+        <service
+            android:name=".NotificationService"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
+
+        <receiver android:name=".MyCallReciever" >
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".Mute"
+            android:label="@string/title_activity_mute"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" >
+        </activity>
+        <activity
+            android:name=".Water"
+            android:label="@string/title_activity_water"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" >
+        </activity>
+        <activity
+            android:name=".Fuel"
+            android:label="@string/title_activity_fuel"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" >
+        </activity>
+    </application>
+
+</manifest>
